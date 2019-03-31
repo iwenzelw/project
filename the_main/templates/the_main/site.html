@@ -1,0 +1,51 @@
+{% extends 'the_main/tampletes.html' %}
+{% block tmp_section %}
+
+<main role="main" class="container">
+    <div class="row">
+        <div class="col">
+            <div class="jumbotron">
+                <h1>{{form.title}}</h1>
+                <p class="lead">{{form.description}}</p>
+                <a class="btn btn-lg btn-primary" href="{% url 'the_main-home' %}" role="button">вернуться на
+                    главную</a>
+                    
+                    
+
+            </div>
+        </div>
+    </div>
+</main>
+<div  class="container">
+        <div class="jumbotron">
+        <h1 class="text-center">Our Team</h1></div>
+        
+        <div class=row>
+          <div class="col-lg-3 col-md-3 col-sm-12 item"> 
+              <div class="jumbotron">
+                    
+          
+                <img src="../../static/img/conar.jpg" class="img-fluid" alt="team">
+                  <div class="des">
+                                     Sara
+                   </div>
+                    <span class="text-muted">Manager</span>
+                   <span class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+            </div></div>
+        
+          <div class="col-lg-3 col-md-3 col-sm-12 item"> <div class="jumbotron">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolorem dolores, est fuga fugiat officiis sunt vero voluptates
+          </div></div>
+          <div class="col-lg-3 col-md-3 col-sm-12 item"> <div class="jumbotron">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolorem dolores, est fuga fugiat officiis sunt vero voluptates. Aliquid id in libero minus mollitia, nihil officia quos ratione sit soluta!
+          </div></div>
+          <div class="col-lg-3 col-md-3 col-sm-12 item"> <div class="jumbotron">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolorem dolores, est fuga fugiat officiis sunt vero voluptates. Aliquid id in libero minus mollitia, nihil officia quos ratione sit soluta!
+              </div></div>
+        </div>
+      </div>
+</div>
+
+{% endblock tmp_section %}
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>

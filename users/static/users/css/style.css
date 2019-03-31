@@ -1,0 +1,27 @@
+.post-form {
+    background: #F97300;
+    padding: 20px;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    /*width: 100%;*/
+    width: 400px;
+    margin: 30px auto;
+    position: relative;
+    -webkit-box-shadow: 0 2px 3 px 0 rgba(74,74,74,.21);
+    -moz-box-shadow: 0 2px 3px 0 rgba(74,74,74,.21);
+    box-shadow: 0 2px 3px 0 rgba(74,74,74,.21);
+}
+
+.jumbotron >h1  {
+    color: #F97300;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.jumbotron >h2  {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 10px;
+}
+.lead {
+    text-align: center;
+}

@@ -1,4 +1,4 @@
-#!/Users/wenzel.w/Desktop/mysite/venv/bin/python
+#!/Users/wenzel.w/Desktop/WENZEL/venv/bin/python
 # EASY-INSTALL-ENTRY-SCRIPT: 'setuptools==39.1.0','console_scripts','easy_install'
 __requires__ = 'setuptools==39.1.0'
 import re

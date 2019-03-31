@@ -1,0 +1,26 @@
+{% extends 'the_main/tampletes.html' %}
+{% load crispy_forms_tags %}
+
+{% block tmp_section %}
+<main role="main" class="container">
+    <div class="row">
+        <div class="col">
+            <div class="jumbotron">
+
+
+
+                <h1>{{blog.title}}</h1>
+
+
+
+                <h1>{{ blog.description }}</h1>
+
+            </div>
+            <a class="btn btn-lg btn-primary" href="{% url 'the_main-home' %}" role="button">вернуться на
+                главную</a>
+        </div>
+    </div>
+    </div>
+</main>
+
+    {% endblock tmp_section %}

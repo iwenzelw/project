@@ -1,0 +1,29 @@
+{% extends 'the_main/tampletes.html' %}
+{% block tmp_section %}
+<main role="main" class="container">
+      <div class="row">
+            <div class="col">
+                  <div class="jumbotron">
+                        <h1>Контакты</h1>
+                        <p class="lead">Список контактов</p>
+                        <a class="btn btn-lg btn-primary" href="#" role="button">View navbar docs »</a>
+                  </div>
+            </div>
+      </div>
+</main>
+
+<main role="main" class="container">
+      <div class="row">
+            <div class="col">
+                  <div class="jumbotron">
+                        <h1>Оставьте свои контакты</h1>
+                        <p class="lead">
+                              заполните простую форму</p>
+                        <a class="btn btn-lg btn-primary" href="{% url 'the_main-home' %}" role="button">вернуться на
+                              главную</a>
+                  </div>
+            </div>
+      </div>
+</main>
+
+{% endblock tmp_section %}

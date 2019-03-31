@@ -1,0 +1,71 @@
+body {
+  background-image: url(../img/bg/headerback.jpg);
+  background-blend-mode: multiply;
+  background-color: #1621c524!important;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+
+
+.navbar {
+  background: #F97300;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #f4f4f4;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  background: #f4f4f4;
+  color: #f97300;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-toggler {
+  background: #fff !important;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.description {
+  position: absolute;
+  top: 30%;
+  margin: auto;
+  padding: 2em;
+}
+
+.description h1 {
+  color: #F97300;
+}
+
+.description p {
+  color: #666;
+  font-size: 20px;
+  width: 50%;
+  line-height: 1.5;
+}
+
+.description button {
+  border: 1px solid #F97300;
+  background: #F97300;
+  color: #fff;
+}
+
+.container {
+  overflow: auto;
+  margin-top: 80px;
+}

@@ -1,0 +1,39 @@
+{% extends 'the_main/tampletes.html' %}
+{% load crispy_forms_tags %}
+{% block tmp_section %}
+<main role="main" class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="jumbotron">
+        <h1>Скоро все откроется</h1>
+        <p class="lead">Оставте Ваш имейл по форме ниже</p>
+        <form action="" method="post" class="post-form">
+          {% csrf_token %}
+          <table>
+              {{form|crispy}}
+          </table>
+            <button type="submit" class="btn btn-lg btn-primary">отправить</button>
+      </form>
+
+      </div>
+    </div>
+  </div>
+</main>
+
+<main role="main" class="container">
+  <div class="row">
+    <div class="col">
+      <div class="jumbotron">
+        <h1>Hello ,Welcome To My officail Website</h1>
+        <p class="lead">
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+        <a class="btn btn-lg btn-primary" href="#" role="button">See more</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+
+{% endblock tmp_section %}
