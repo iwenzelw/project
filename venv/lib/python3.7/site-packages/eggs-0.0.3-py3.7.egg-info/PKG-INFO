@@ -1,0 +1,72 @@
+Metadata-Version: 1.1
+Name: eggs
+Version: 0.0.3
+Summary: Simple Python3 Packages Manager
+Home-page: https://github.com/egg3/eggs
+Author: Wei Huang
+Author-email: h.wei@outlook.com
+License: UNKNOWN
+Download-URL: https://github.com/egg3/eggs/archive/0.0.3.tar.gz
+Description: # Eggs -- Simple Python3 Packages Manager
+        
+        Eggs wrapped `install`, `uninstall` and `update` of `pip`.
+        The eggs file is `eggs.txt` which just keep **user-care** packages without
+        other dependency packages. It like this:
+        
+        ```
+        [prod]
+        sanic = 0.5.0
+        
+        [dev]
+        pylint = 1.8.2
+        rope = 0.10.7
+        ```
+        
+        ## Section
+        The default section_of is `prod` for production environment. You can freely set your section_of
+        
+        ## Usage
+        ```
+        python eggs.py -h
+        ```
+        
+        ### Init
+        ```
+        python3 eggs.py init
+        python3 eggs.py init [new-egg]
+        ```
+        
+        ### Install
+        ```
+        python eggs.py install
+        python eggs.py install bcrypt
+        python eggs.py install -S dev rope
+        ```
+        
+        ### Uninstall
+        ```
+        python eggs.py uninstall bcrypt rope
+        ```
+        
+        ### Update
+        ```
+        python eggs.py update
+        ```
+        
+        ### List
+        ```
+        python eggs.py list
+        ```
+        
+        ### Search
+        ```
+        python eggs.py search jwt
+        ```
+        
+        ## RoadMap
+        
+        - 0.1.0 simple wrap *venv* and *pip* command
+        - 0.2.0 remove commands
+        - 0.3.0 add eggs cache
+Keywords: packages,manager,wrapper
+Platform: UNKNOWN
